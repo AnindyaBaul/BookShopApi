@@ -1,0 +1,34 @@
+body{
+    background: url(./cover.jpg) fixed;
+    background-size: 100%;
+    font-family: 'Cormorant Infant', serif;
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+}
+
+input{
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+
+}
+#booKStore{
+    height: 500px;
+    width: 700px;
+    /* border: 1px solid red; */
+}
+
+.col img{
+    height: 200px;
+    width: 100px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
